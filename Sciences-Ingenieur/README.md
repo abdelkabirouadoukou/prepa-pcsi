@@ -1,6 +1,6 @@
 # ⚙️ Sciences de l'Ingénieur (SI) - PCSI
 
-Tous les travaux pratiques, travaux dirigés et problèmes de Sciences de l'Ingénieur de la prépa PCSI.
+Tous les travaux pratiques et travaux dirigés de Sciences de l'Ingénieur de la prépa PCSI.
 
 ## 📚 Contenu
 
@@ -40,11 +40,6 @@ TPs-TDs/
 ├── TD01-statique/
 │   └── exercices.py
 ...
-
-Problemes/
-├── Probleme-robot/
-...
-```
 ```
 
 ## 🔧 Modules Utilisés

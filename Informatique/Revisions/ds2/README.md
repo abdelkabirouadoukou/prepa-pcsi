@@ -1,20 +1,18 @@
-# 📖 Révisions DS - Exercices de Préparation
+# 📖 DS2 - Révisions Informatique
 
 > **Date :** 2024-2025  
-> **Période :** Révisions DS
+> **Matière :** Informatique
+> **Période :** Révisions DS2
 
 ---
 
 ## 📋 Description
 
-Collection d'exercices pour la préparation aux Devoirs Surveillés.
+Exercices de préparation pour le Devoir Surveillé 2 d'informatique.
 
 ---
 
 ## 💻 Contenu
-
-### DS2 - Exercices
-Dossier : `ds2/`
 
 **Fichiers inclus :**
 - `exe.py` - Exercice 1
@@ -33,8 +31,9 @@ Dossier : `ds2/`
 
 ```bash
 # Exécuter un exercice
-cd ds2
 python exe.py
+python exe2.py
+python exe3.py
 ```
 
 ---

@@ -1,6 +1,6 @@
 # ⚛️ Physique - PCSI
 
-Tous les travaux pratiques, travaux dirigés et problèmes de physique de la prépa PCSI.
+Tous les travaux pratiques et travaux dirigés de physique de la prépa PCSI.
 
 ## 📚 Contenu
 
@@ -39,11 +39,6 @@ TPs-TDs/
 ├── TD01-nom-descriptif/
 │   └── exercices.py
 ...
-
-Problemes/
-├── Probleme-mecanique/
-...
-```
 ```
 
 ## 🧪 Modules Utilisés

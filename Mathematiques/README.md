@@ -1,6 +1,6 @@
 # 📐 Mathématiques - PCSI
 
-Tous les travaux pratiques, travaux dirigés et problèmes de mathématiques de la prépa PCSI.
+Tous les travaux pratiques et travaux dirigés de mathématiques de la prépa PCSI.
 
 ## 📚 Contenu
 
@@ -36,11 +36,6 @@ TPs-TDs/
 │   ├── exercice1.py
 │   └── README.md
 ...
-
-Problemes/
-├── Probleme-nom/
-...
-```
 ```
 
 ## 🚀 Utilisation

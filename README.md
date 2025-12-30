@@ -56,7 +56,6 @@ Chaque TP/TD est organisé dans un dossier dédié avec :
 **Convention de nommage :**
 - `TP01-nom-descriptif/`
 - `TD01-nom-descriptif/`
-- `Probleme-nom/`
 
 ## 🚀 Comment Utiliser ce Repository
 

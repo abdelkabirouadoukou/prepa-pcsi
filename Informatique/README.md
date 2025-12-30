@@ -54,12 +54,10 @@ TPs-TDs/
 │   └── exercices.py
 ...
 
-Problemes/
-├── Probleme-tri-fusion/
-│   ├── implementation.py
-│   └── README.md
+Revisions/
+├── revision-ds/
+│   └── ds2/
 ...
-```
 ```
 
 ## 🧩 Concepts Principaux

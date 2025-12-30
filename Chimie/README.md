@@ -1,6 +1,6 @@
 # 🧪 Chimie - PCSI
 
-Tous les travaux pratiques, travaux dirigés et problèmes de chimie de la prépa PCSI.
+Tous les travaux pratiques et travaux dirigés de chimie de la prépa PCSI.
 
 ## 📚 Contenu
 
@@ -39,11 +39,6 @@ TPs-TDs/
 ├── TD01-cinetique/
 │   └── exercices.py
 ...
-
-Problemes/
-├── Probleme-equilibre/
-...
-```
 ```
 
 ## 🧪 Modules Utilisés
