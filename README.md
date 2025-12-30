@@ -3,7 +3,7 @@
 <div align="center">
 
 **Repository personnel pour la Classe Préparatoire PCSI**  
-*Physique, Chimie et Sciences de l'Ingénieur*
+*Informatique, Physique, Chimie et Sciences de l'Ingénieur*
 
 *By Abdelkabir - Ibn Taimiya CPGE* 🇲🇦
 
