@@ -29,21 +29,36 @@
                 <a href="#about" class="hover:text-black transition-colors">À propos</a>
                 <a href="#subjects" class="hover:text-black transition-colors">Matières</a>
                 <a href="#structure" class="hover:text-black transition-colors">Structure</a>
-                <a href="https://github.com/yourusername/prepa-pcsi" target="_blank" class="px-4 py-2 bg-black text-white rounded hover:bg-zinc-800 transition-colors">GitHub</a>
+                <a href="https://github.com" target="_blank" class="px-4 py-2 bg-black text-white rounded hover:bg-zinc-800 transition-colors">GitHub</a>
+            </div>
+            <!-- Mobile menu button -->
+            <button class="md:hidden p-2" onclick="toggleMenu()">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobileMenu" class="hidden md:hidden border-t border-border/50">
+            <div class="max-w-7xl mx-auto px-6 py-4 flex flex-col gap-4 font-mono text-xs uppercase tracking-widest">
+                <a href="#about" class="hover:text-black transition-colors py-2">À propos</a>
+                <a href="#subjects" class="hover:text-black transition-colors py-2">Matières</a>
+                <a href="#structure" class="hover:text-black transition-colors py-2">Structure</a>
+                <a href="https://github.com" target="_blank" class="px-4 py-2 bg-black text-white rounded hover:bg-zinc-800 transition-colors text-center">GitHub</a>
             </div>
         </div>
     </nav>
 
     <!-- Hero -->
-    <section class="pt-35 pb-24 px-6">
+    <section class="pt-24 md:pt-36 pb-28 px-6">
         <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div class="flex flex-col gap-6">
                     <span class="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground">Ibn Taimiya CPGE 🇲🇦</span>
-                    <h1 class="text-6xl md:text-8xl font-bold tracking-tighter leading-[0.9] text-balance">
+                    <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-[0.9] text-balance">
                         PREPA PCSI <br/> 2 ANS DE CODE.
                     </h1>
-                    <p class="text-xl md:text-2xl text-muted-foreground max-w-2xl leading-relaxed text-pretty">
+                    <p class="text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-2xl leading-relaxed text-pretty">
                         Repository personnel centralisant l'ensemble du travail de programmation et de résolution de problèmes.
                     </p>
                     <div class="flex flex-wrap gap-4 mt-8">
@@ -282,6 +297,34 @@
                         <li>CPGE Maroc</li>
                         <li>PCSI 25-27</li>
                     </ul>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        }
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('#mobileMenu a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('mobileMenu').classList.add('hidden');
+            });
+        });
+
+        // Add smooth scroll behavior
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
                 </div>
                 <div class="space-y-4">
                     <h5 class="font-mono text-[10px] uppercase tracking-widest text-black font-bold">Contact</h5>
