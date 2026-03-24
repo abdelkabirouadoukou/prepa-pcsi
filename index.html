@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PREPA PCSI | Ibn Taimiya CPGE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-background: #ffffff;
+        --color-foreground: #000000;
+        --color-card: #f5f5f5;
+        --color-border: #e5e5e5;
+        --color-muted-foreground: #737373;
+      }
+    </style>
+</head>
+<body class="bg-background text-foreground selection:bg-black selection:text-white">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 border-b border-border/50 bg-background/80 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-black rounded flex items-center justify-center">
+                    <span class="text-white font-bold text-sm">P</span>
+                </div>
+                <span class="font-mono text-sm tracking-tighter uppercase font-bold">PCSI.PREP</span>
+            </div>
+            <div class="hidden md:flex items-center gap-8 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
+                <a href="#about" class="hover:text-black transition-colors">À propos</a>
+                <a href="#subjects" class="hover:text-black transition-colors">Matières</a>
+                <a href="#structure" class="hover:text-black transition-colors">Structure</a>
+                <a href="https://github.com/abdelkabirouadoukou/prepa-pcsi" target="_blank" class="px-4 py-2 bg-black text-white rounded hover:bg-zinc-800 transition-colors">GitHub</a>
+            </div>
+            <!-- Mobile menu button -->
+            <button class="md:hidden p-2" onclick="toggleMenu()">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobileMenu" class="hidden md:hidden border-t border-border/50">
+            <div class="max-w-7xl mx-auto px-6 py-4 flex flex-col gap-4 font-mono text-xs uppercase tracking-widest">
+                <a href="#about" class="hover:text-black transition-colors py-2">À propos</a>
+                <a href="#subjects" class="hover:text-black transition-colors py-2">Matières</a>
+                <a href="#structure" class="hover:text-black transition-colors py-2">Structure</a>
+                <a href="https://github.com/abdelkabirouadoukou/prepa-pcsi" target="_blank" class="px-4 py-2 bg-black text-white rounded hover:bg-zinc-800 transition-colors text-center">GitHub</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="pt-24 md:pt-36 pb-28 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="flex flex-col gap-6">
+                    <span class="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground">Ibn Taimiya CPGE 🇲🇦</span>
+                    <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-[0.9] text-balance">
+                        PREPA PCSI <br/> 2 ANS DE CODE.
+                    </h1>
+                    <p class="text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-2xl leading-relaxed text-pretty">
+                        Repository personnel centralisant l'ensemble du travail de programmation et de résolution de problèmes.
+                    </p>
+                    <div class="flex flex-wrap gap-4 mt-8">
+                        <a href="#subjects" class="px-8 py-4 bg-black text-white font-bold uppercase text-xs tracking-widest hover:bg-zinc-800 transition-all active:scale-95">Explorer les TPs</a>
+                        <a href="#structure" class="px-8 py-4 border border-border font-bold uppercase text-xs tracking-widest hover:bg-black/5 transition-all active:scale-95">Structure du repo</a>
+                    </div>
+                </div>
+                <div class="order-first md:order-last">
+                    <img src="https://raw.githubusercontent.com/abdelkabirouadoukou/prepa-pcsi/refs/heads/main/.assets/hero_img.jpg" alt="PCSI Preparation" class="w-full h-auto rounded-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="border-y border-border py-12 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div>
+                <div class="text-4xl font-bold mb-1">06</div>
+                <div class="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">Matières</div>
+            </div>
+            <div>
+                <div class="text-4xl font-bold mb-1">2025</div>
+                <div class="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">Promotion</div>
+            </div>
+            <div>
+                <div class="text-4xl font-bold mb-1">100+</div>
+                <div class="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">Algorithmes</div>
+            </div>
+            <div>
+                <div class="text-4xl font-bold mb-1">PYTHON</div>
+                <div class="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">Langage Principal</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-32 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+                <div>
+                    <span class="font-mono text-xs uppercase tracking-[0.3em] text-muted-foreground">À propos du projet</span>
+                    <h2 class="text-4xl md:text-6xl font-bold tracking-tighter mt-6 mb-8">UN REPOSITORY COMPLET POUR LA PRÉPA.</h2>
+                    <p class="text-lg text-muted-foreground leading-relaxed mb-6">
+                        Ce repository centralise l'ensemble de mon travail durant les deux années de classes préparatoires PCSI à Ibn Taimiya CPGE au Maroc.
+                    </p>
+                    <p class="text-lg text-muted-foreground leading-relaxed">
+                        De la programmation Python aux algorithmes avancés, en passant par les simulations scientifiques, ce projet documente ma progression et mes apprentissages.
+                    </p>
+                </div>
+                
+                <div class="space-y-6">
+                    <div class="border-l-2 border-black pl-6">
+                        <h4 class="font-bold text-xl mb-2">Organisation Structurée</h4>
+                        <p class="text-muted-foreground leading-relaxed">
+                            Chaque matière dispose de son propre dossier avec TPs, TDs et documentation complète pour faciliter la navigation et la révision.
+                        </p>
+                    </div>
+                    
+                    <div class="border-l-2 border-black pl-6">
+                        <h4 class="font-bold text-xl mb-2">Documentation Détaillée</h4>
+                        <p class="text-muted-foreground leading-relaxed">
+                            Tous les exercices sont accompagnés de READMEs explicatifs avec objectifs, théorie et exemples d'utilisation.
+                        </p>
+                    </div>
+                    
+                    <div class="border-l-2 border-black pl-6">
+                        <h4 class="font-bold text-xl mb-2">Évolution Continue</h4>
+                        <p class="text-muted-foreground leading-relaxed">
+                            Le repository est mis à jour régulièrement avec de nouveaux exercices, algorithmes et améliorations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subjects Grid -->
+    <section id="subjects" class="py-32 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end gap-8 mb-20">
+                <h2 class="text-4xl md:text-6xl font-bold tracking-tighter">MATIÈRES <br/> COUVERTES</h2>
+                <p class="text-muted-foreground max-w-md font-mono text-sm leading-relaxed">
+                    Une approche structurée de l'ingénierie à travers les mathématiques, la physique, la chimie et l'informatique.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-px bg-border border border-border">
+                <!-- Math -->
+                <div class="bg-background p-10 hover:bg-card transition-colors group">
+                    <div class="text-xs font-mono text-muted-foreground mb-12">01.</div>
+                    <h3 class="text-2xl font-bold mb-4">Mathématiques</h3>
+                    <p class="text-muted-foreground text-sm leading-relaxed mb-8">Algèbre linéaire, calcul différentiel, séries et probabilités appliquées.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 text-[10px] font-mono border border-border uppercase tracking-widest group-hover:border-black transition-colors">TPs-TDs</span>
+                        <span class="px-2 py-1 text-[10px] font-mono border border-border uppercase tracking-widest group-hover:border-black transition-colors">NumPy</span>
+                    </div>
+                </div>
+
+                <!-- Physics -->
+                <div class="bg-background p-10 hover:bg-card transition-colors group">
+                    <div class="text-xs font-mono text-muted-foreground mb-12">02.</div>
+                    <h3 class="text-2xl font-bold mb-4">Physique</h3>
+                    <p class="text-muted-foreground text-sm leading-relaxed mb-8">Mécanique du point, électrocinétique, ondes et thermodynamique.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 text-[10px] font-mono border border-border uppercase tracking-widest group-hover:border-black transition-colors">SciPy</span>
+                        <span class="px-2 py-1 text-[10px] font-mono border border-border uppercase tracking-widest group-hover:border-black transition-colors">Matplotlib</span>
+                    </div>
+                </div>
+
+                <!-- CS -->
+                <div class="bg-background p-10 hover:bg-card transition-colors group">
+                    <div class="text-xs font-mono text-muted-foreground mb-12">03.</div>
+                    <h3 class="text-2xl font-bold mb-4">Informatique</h3>
+                    <p class="text-muted-foreground text-sm leading-relaxed mb-8">Algorithmique fondamentale, structures de données et programmation orientée objet.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 text-[10px] font-mono border border-border uppercase tracking-widest group-hover:border-black transition-colors">Revisions</span>
+                        <span class="px-2 py-1 text-[10px] font-mono border border-border uppercase tracking-widest group-hover:border-black transition-colors">Algorithms</span>
+                    </div>
+                </div>
+
+                <!-- SI -->
+                <div class="bg-background p-10 hover:bg-card transition-colors group">
+                    <div class="text-xs font-mono text-muted-foreground mb-12">04.</div>
+                    <h3 class="text-2xl font-bold mb-4">Sciences Ingénieur</h3>
+                    <p class="text-muted-foreground text-sm leading-relaxed mb-8">Automatique, modélisation de systèmes et conception mécanique.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 text-[10px] font-mono border border-border uppercase tracking-widest group-hover:border-black transition-colors">Modeling</span>
+                        <span class="px-2 py-1 text-[10px] font-mono border border-border uppercase tracking-widest group-hover:border-black transition-colors">Simulations</span>
+                    </div>
+                </div>
+
+                <!-- Chemistry -->
+                <div class="bg-background p-10 hover:bg-card transition-colors group">
+                    <div class="text-xs font-mono text-muted-foreground mb-12">05.</div>
+                    <h3 class="text-2xl font-bold mb-4">Chimie</h3>
+                    <p class="text-muted-foreground text-sm leading-relaxed mb-8">Cinétique, thermochimie et étude des solutions aqueuses.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 text-[10px] font-mono border border-border uppercase tracking-widest group-hover:border-black transition-colors">Python</span>
+                        <span class="px-2 py-1 text-[10px] font-mono border border-border uppercase tracking-widest group-hover:border-black transition-colors">Data</span>
+                    </div>
+                </div>
+
+                <!-- Problem Solving -->
+                <div class="bg-background p-10 hover:bg-card transition-colors group">
+                    <div class="text-xs font-mono text-muted-foreground mb-12">06.</div>
+                    <h3 class="text-2xl font-bold mb-4">Problem Solving</h3>
+                    <h3 class="text-2xl font-bold mb-4 opacity-0 h-0 w-0">Algorithmes</h3>
+                    <p class="text-muted-foreground text-sm leading-relaxed mb-8">Résolution de problèmes sur LeetCode, HackerRank et structures de données complexes.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 text-[10px] font-mono border border-border uppercase tracking-widest group-hover:border-black transition-colors">LeetCode</span>
+                        <span class="px-2 py-1 text-[10px] font-mono border border-border uppercase tracking-widest group-hover:border-black transition-colors">Comp</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Repository Structure -->
+    <section id="structure" class="py-32 px-6 bg-card">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+            <div>
+                <h2 class="text-4xl md:text-6xl font-bold tracking-tighter mb-8">ARCHITECTURE <br/> DU REPO.</h2>
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <div class="w-6 h-6 rounded-full border border-black flex-shrink-0 flex items-center justify-center text-[10px]">1</div>
+                        <div>
+                            <h4 class="font-bold mb-1">Matières Dédiées</h4>
+                            <p class="text-sm text-muted-foreground">Chaque discipline possède son propre espace de travail structuré.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="w-6 h-6 rounded-full border border-black flex-shrink-0 flex items-center justify-center text-[10px]">2</div>
+                        <div>
+                            <h4 class="font-bold mb-1">TPs & TDs Combinés</h4>
+                            <p class="text-sm text-muted-foreground">Regroupement logique pour faciliter l'accès aux exercices et pratiques.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="w-6 h-6 rounded-full border border-black flex-shrink-0 flex items-center justify-center text-[10px]">3</div>
+                        <div>
+                            <h4 class="font-bold mb-1">Documentation Markdown</h4>
+                            <p class="text-sm text-muted-foreground">READMEs détaillés dans chaque dossier expliquant les objectifs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white p-8 rounded border-2 border-border font-mono text-xs overflow-x-auto">
+                <div class="text-black/40 mb-4">// Structure du projet</div>
+                <div class="space-y-1">
+                    <div class="text-black font-bold">prepa-pcsi/</div>
+                    <div class="pl-4 text-muted-foreground">├── <span class="text-black font-bold">Mathematiques/</span></div>
+                    <div class="pl-8 text-muted-foreground">└── TPs-TDs/</div>
+                    <div class="pl-4 text-muted-foreground">├── <span class="text-black font-bold">Physique/</span></div>
+                    <div class="pl-8 text-muted-foreground">└── TPs-TDs/</div>
+                    <div class="pl-4 text-muted-foreground">├── <span class="text-black font-bold">Informatique/</span></div>
+                    <div class="pl-8 text-muted-foreground">├── TPs-TDs/</div>
+                    <div class="pl-8 text-muted-foreground">└── Revisions/</div>
+                    <div class="pl-4 text-muted-foreground">├── <span class="text-black font-bold">Algorithmes-General/</span></div>
+                    <div class="pl-8 text-muted-foreground">└── Problem-Solving/</div>
+                    <div class="pl-4 text-muted-foreground">└── <span class="text-black font-bold">.templates/</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-20 px-6 border-t border-border">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-12">
+            <div class="space-y-4">
+                <div class="flex items-center gap-2">
+                    <div class="w-6 h-6 bg-black rounded flex items-center justify-center">
+                        <span class="text-white font-bold text-[10px]">P</span>
+                    </div>
+                    <span class="font-mono text-xs uppercase tracking-widest font-bold">PCSI.PREP</span>
+                </div>
+                <p class="text-muted-foreground text-sm max-w-xs leading-relaxed">
+                    Repository éducatif open source pour les classes préparatoires aux grandes écoles.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-12">
+                <div class="space-y-4">
+                    <h5 class="font-mono text-[10px] uppercase tracking-widest text-black font-bold">Navigation</h5>
+                    <ul class="space-y-2 text-sm text-muted-foreground">
+                        <li><a href="#about" class="hover:text-black">À propos</a></li>
+                        <li><a href="#subjects" class="hover:text-black">Matières</a></li>
+                        <li><a href="#structure" class="hover:text-black">Structure</a></li>
+                    </ul>
+                </div>
+                <div class="space-y-4">
+                    <h5 class="font-mono text-[10px] uppercase tracking-widest text-black font-bold">Institution</h5>
+                    <ul class="space-y-2 text-sm text-muted-foreground">
+                        <li>Ibn Taimiya</li>
+                        <li>CPGE Maroc</li>
+                        <li>PCSI 25-27</li>
+                    </ul>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        }
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('#mobileMenu a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('mobileMenu').classList.add('hidden');
+            });
+        });
+
+        // Add smooth scroll behavior
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+                </div>
+                <div class="space-y-4">
+                    <h5 class="font-mono text-[10px] uppercase tracking-widest text-black font-bold">Contact</h5>
+                    <ul class="space-y-2 text-sm text-muted-foreground">
+                        <li>GitHub Issues</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto mt-20 pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-center gap-4 font-mono text-[10px] text-muted-foreground uppercase tracking-widest">
+            <p>&copy; 2025 PCSI PREP. TOUS DROITS RÉSERVÉS.</p>
+            <p>CONSTRUIT AVEC PASSION POUR LA PRÉPA.</p>
+        </div>
+    </footer>
+</body>
+</html>
