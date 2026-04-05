@@ -1,13 +1,17 @@
-# TP03 - Les Fonctions
+# 🚀 TP03 - Les Fonctions et la Récursion
 
 ## 📝 Description
-Ce TP explore les concepts fondamentaux des fonctions en Python, notamment la récursivité, les calculs mathématiques et les algorithmes sur les nombres.
+Ce TP explore les concepts fondamentaux des fonctions en Python, notamment la **récursion**, les calculs mathématiques et les algorithmes sur les nombres.
+
+La récursion est un concept clé : une fonction qui s'appelle elle-même. Cela permet de résoudre des problèmes de manière élégante.
 
 ## 🎯 Objectifs d'apprentissage
-- Maîtriser la récursivité en Python
-- Comprendre les fonctions mathématiques (factorielle, coefficients binomiaux)
-- Manipuler les nombres et leurs propriétés (diviseurs, chiffres)
-- Appliquer les concepts de boucles et conditions dans les fonctions
+- ✅ Maîtriser la récursivité en Python
+- ✅ Comprendre l'ordre d'appels (pile d'appels / call stack)
+- ✅ Implémenter des calculs mathématiques récursifs
+- ✅ Manipuler les nombres et leurs propriétés
+- ✅ Optimiser avec la mémorisation (memoization)
+- ✅ Appliquer boucles et conditions dans les fonctions
 
 ## 📂 Exercices
 
