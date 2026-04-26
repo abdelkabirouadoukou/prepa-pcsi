@@ -1,6 +1,15 @@
-# 💻 Algorithmes Généraux & Problem Solving
+# 🧮 Algorithmes Généraux
 
-Collection d'algorithmes fondamentaux, structures de données et exercices de résolution de problèmes essentiels pour tout informaticien.
+> Algorithmes classiques et problèmes de programmation résolus indépendamment de la spécialité.
+
+---
+
+## 📋 Navigation Rapide
+
+| Sujet | Contenu | Difficulté |
+|-------|---------|----------|
+| **PGCD** | Algorithme d'Euclide | ⭐ |
+| **Problem Solving** | Exercices variés | ⭐ à ⭐⭐⭐ |
 
 ---
 

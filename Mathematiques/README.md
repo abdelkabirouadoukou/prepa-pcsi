@@ -1,6 +1,17 @@
 # 📐 Mathématiques - PCSI
 
-Travaux pratiques et travaux dirigés de mathématiques pour explorer l'algèbre linéaire, l'analyse numérique et les applications computationnelles.
+> Travaux pratiques et travaux dirigés de mathématiques pour la préparation aux concours PCSI.
+
+---
+
+## 📋 Navigation Rapide
+
+| Domaine | Contenu | Statut |
+|---------|---------|--------|
+| **Algèbre** | Matrices, systèmes linéaires | 📝 À compléter |
+| **Analyse** | Limites, dérivation, intégration | 📝 À compléter |
+| **Géométrie** | Vecteurs, espaces | 📝 À compléter |
+| **Probabilités** | Distributions, stats | 📝 À compléter |
 
 ---
 

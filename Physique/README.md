@@ -1,12 +1,22 @@
 # ⚛️ Physique - PCSI
 
-Travaux pratiques et travaux dirigés de physique pour maîtriser la modélisation et la simulation de phénomènes physiques.
+> Travaux pratiques et travaux dirigés de physique pour la préparation aux concours PCSI. Mécanique, électronique, thermique.
+
+---
+
+## 📋 Navigation Rapide
+
+| Sujet | Contenu | Niveau |
+|-------|---------|--------|
+| **Projectiles** | Trajectoires, portée, temps de vol | ⭐ |
+| **Filtrage & Ampli** | Filtres RC, opérateurs, Bode | ⭐⭐ |
+| **Mesures** | Incertitudes, Monte Carlo | ⭐⭐ |
 
 ---
 
 ## 📋 Contenu Pédagogique
 
-### 1. **Projectile** (`projectile/`)
+### 1️⃣ **Projectile** (`projectile/`)
 
 #### 🎯 Objectif
 Simuler et analyser le mouvement d'un projectile sous l'effet de la gravité.

@@ -1,22 +1,52 @@
 # 💻 Informatique - PCSI
 
-Tous les travaux pratiques, travaux dirigés, révisions et algorithmes d'informatique pour la préparation aux concours des grandes écoles.
+> Tous les travaux pratiques, travaux dirigés, révisions et algorithmes d'informatique pour la préparation aux concours des grandes écoles PCSI.
+
+Python, Algorithmes, Structures de Données, Complexité, Programmation Récursive
 
 ---
 
-## 📚 Contenu Complet
+## 📋 Navigation Rapide
 
-### 🔄 **Structure Générale**
+**📍 Débuter**
+- [TP01 - Bases Python](./TPs-TDs/TP01-exercices-base/) - Variables, opérateurs, I/O
+- [Les Boucles](./TPs-TDs/les-boucles/) - for, while, imbrication
+- [Les Listes](./TPs-TDs/les-lists/) - Structures de données
+
+**📍 Progresser**
+- [TP03 - Fonctions](./TPs-TDs/TP03-les-fonctions/) - Définition, récursion
+- [TD - Tris](./TPs-TDs/TD-les-tris/) - Bubble, insertion, fusion, quick sort
+- [Algorithmes Avancés](./ai/) - A*, Minimax, Gradient Descent
+
+**📍 Réviser**
+- [Révisions & DS](./Revisions/) - Devoirs surveillés, solutions
+
+---
+
+## 🏗️ Structure Générale
 
 ```
 Informatique/
 ├── README.md (ce fichier)
-├── ai/ (Algorithmes d'IA et Pathfinding)
-├── Revisions/ (Devoirs Surveillés)
-└── TPs-TDs/ (Travaux Pratiques & Dirigés)
-    ├── TD-les-tris/
-    ├── TP01-exercices-base/
-    └── TP03-les-fonctions/
+│
+├── 📂 TPs-TDs/ (Travaux Pratiques & Dirigés)
+│   ├── TP01-exercices-base/     → Variables, Types, Opérateurs
+│   ├── les-boucles/             → for, while, Contrôle de flux
+│   ├── les-lists/               → Listes, Manipulation, Comprehension
+│   ├── TP03-les-fonctions/      → Fonctions, Récursion
+│   └── TD-les-tris/             → Algorithmes de tri, Complexité
+│
+├── 📂 ai/ (Algorithmes Avancés)
+│   ├── astar_pathfinding.py     → A* (Recherche optimale)
+│   ├── minimax_tictactoe.py     → Minimax (Jeux)
+│   └── gradient_descent.py      → Gradient Descent (ML)
+│
+├── 📂 Revisions/ (Devoirs Surveillés)
+│   ├── ds2/                     → DS Révision
+│   └── trim2-ds1/               → DS Trimestre 2
+│
+└── 📂 chapitres/ (Cours Théorique)
+    └── (À documenter)
 ```
 
 ---
@@ -24,143 +54,141 @@ Informatique/
 ## 🎓 Progression Pédagogique
 
 ### **Semaine 1-2 : Bases Absolues**
-📍 **TP01 - Exercices de Base**
+📍 **[TP01 - Exercices de Base](./TPs-TDs/TP01-exercices-base/)**
 - Variables, types de données (int, float, str, bool)
 - Opérateurs arithmétiques et logiques
 - Entrée/sortie (input, print)
 - Premiers calculs mathématiques simples
 
-**Concepts clés :**
-- Assignation de variables
-- Types et conversions
-- Formules mathématiques en code
+**Concepts clés** : Assignation, Types, Conversions, Formules
 
 ### **Semaine 3-4 : Contrôle de Flux**
-📍 **Structures de contrôle**
-- if / elif / else
-- Boucles for et while
-- break et continue
+📍 **[Les Boucles](./TPs-TDs/les-boucles/) & [Les Listes](./TPs-TDs/les-lists/)**
+- Boucles for et while, break, continue
+- Conditions if / elif / else
 - Imbrication de boucles
-
-### **Semaine 5-6 : Fonctions et Récursion**
-📍 **TP03 - Les Fonctions**
-- Définition et appel de fonctions
-- Paramètres et retours de valeurs
-- **Récursion** : Appels imbriqués
-- Binômes de Newton, factorielles, nombres amis
-- Somme des chiffres
-
-**Défi :** Comprendre la pile d'appels (call stack)
-
-### **Semaine 7-8 : Listes et Données**
-📍 **Structures de données**
-- Listes (création, indexation, slicing)
-- Méthodes utiles (append, remove, sort)
-- Boucles sur listes
+- Listes, indexation, slicing
 - Compréhensions de liste
 
-### **Semaine 9-10 : Algorithmes de Tri**
-📍 **TD-les-tris**
-- Bubble sort (O(n²))
-- Selection sort (O(n²))
-- Insertion sort (O(n²))
-- Merge sort (O(n log n))
-- Quick sort (O(n log n) en moyenne)
+**Concepts clés** : Itération, Conditions, Structures de données
 
-**Visualisation :** Voir l'impact de la complexité en temps réel
+### **Semaine 5-6 : Fonctions et Récursion**
+📍 **[TP03 - Les Fonctions](./TPs-TDs/TP03-les-fonctions/)**
+- Définition et appel de fonctions
+- Paramètres et retours de valeurs
+- **Récursion** : Appels imbriqués, pile d'appels
+- Binômes de Newton, factorielles, nombres amis
+
+**Défi** : Comprendre et visualiser la récursion
+
+### **Semaine 7-10 : Structures et Complexité**
+📍 **[TD - Tris](./TPs-TDs/TD-les-tris/)**
+- Algorithmes de tri : Bubble, Selection, Insertion, Merge, Quick
+- Complexité temporelle : O(n²) vs O(n log n)
+- Comparaison et choix d'algorithmes
+- Analyse et optimisation
+
+**Défi** : Comprendre la notation O() et optimiser
 
 ### **Semaine 11-12 : Algorithmes Avancés**
-📍 **ai/ - Algorithmes d'IA**
-- A* (Pathfinding)
-- Minimax (Jeux)
-- Gradient Descent (Optimisation)
+📍 **[Algorithmes d'IA](./ai/)**
+- A* (Pathfinding) : Recherche optimale sur graphes
+- Minimax (Jeux) : Stratégie de jeu optimale
+- Gradient Descent (ML) : Optimisation itérative
 
 ---
 
-## 🎯 Objectifs Globaux du Cursus
+## 🎯 Objectifs du Cursus
 
-### **Pensée Algorithmique**
-✅ Transformer un problème en algorithme
-✅ Choisir la bonne structure de données
-✅ Analyser et optimiser la complexité
-✅ Écrire du code lisible et maintenable
+### Pensée Algorithmique
+✅ Transformer un problème en algorithme efficace  
+✅ Choisir la bonne structure de données  
+✅ Analyser la complexité (temps et espace)  
+✅ Écrire du code lisible et maintenable  
 
-### **Programmation Python**
-✅ Syntaxe fluide et idiomatique
-✅ Utilisation efficace des bibliothèques (numpy, matplotlib)
-✅ Débogage et test
-✅ Gestion des erreurs (exceptions)
+### Programmation Python
+✅ Syntaxe fluide et idiomatique  
+✅ Structures de contrôle et de données  
+✅ Fonctions, modules et bibliothèques  
+✅ Débogage et tests  
 
-### **Résolution de Problèmes**
-✅ Brute force → Optimisation progressive
-✅ Divide and conquer
-✅ Dynamic programming
-✅ Backtracking et exploration d'état
-
----
-
-## 🏗️ Organisation Générale
-
-### **TPs-TDs (Travaux Pratiques & Dirigés)**
-TPs et TDs hebdomadaires d'informatique en Python :
-- 🏆 TP01-exercices-base : Introduction aux bases
-- 🔀 TD-les-tris : Algorithmes de tri classiques
-- 🚀 TP03-les-fonctions : Fonctions et récursion
-
-### **Révisions**
-📋 Regroupement par devoir :
-- DS1, DS2, DS3 : Exercices de révision type examen
-- Solutions commentées et stratégies de résolution
-
-### **Algorithmes Avancés (ai/)**
-🤖 Implémentations d'IA et recherche :
-- A* (Recherche optimale sur graphes)
-- Minimax (Jeux à deux joueurs)
-- Gradient Descent (Machine Learning)
+### Résolution de Problèmes
+✅ Brute force → Optimisation progressive  
+✅ Divide and conquer  
+✅ Dynamic programming  
+✅ Backtracking et exploration d'état  
 
 ---
 
-## 💡 Conseils Généraux
+## 🎓 Progression PCSI Recommandée
+
+| Étape | Sujet | Dossier | Durée | Objectif |
+|-------|-------|---------|-------|----------|
+| 1️⃣ | Bases | TP01 | 2 sem | Variables, opérateurs |
+| 2️⃣ | Boucles | les-boucles | 2 sem | for/while, imbrication |
+| 3️⃣ | Listes | les-lists | 2 sem | Structures, comprehension |
+| 4️⃣ | Fonctions | TP03 | 2 sem | Récursion, complexité |
+| 5️⃣ | Tri | TD-les-tris | 2 sem | Algorithmes, O() |
+| 6️⃣ | Avancé | ai/ | 2 sem | A*, Minimax, Gradient |
+
+---
+
+## 💡 Méthodologie Générale
 
 ### Avant de Coder
 1. **Lire** le problème attentivement (2 fois!)
 2. **Analyser** : Entrées → Sorties, cas limites
-3. **Dessiner** : Schéma, exemple manuel, arbre d'appels
+3. **Dessiner** : Schéma, exemple manuel, trace
 4. **Planifier** : Pseudocode avant Python
 
 ### Pendant la Programmation
 1. **Petit à petit** : Fonctions simples d'abord
 2. **Tester** : print() partout pour déboguer
-3. **Documenter** : Commentaires et docstrings
-4. **Vérifier** : Cas normaux, cas limites, erreurs
+3. **Documenter** : Commentaires clairs
+4. **Vérifier** : Cas normaux, limites, erreurs
 
 ### Après la Réalisation
 1. **Refactoriser** : Code propre et lisible
 2. **Optimiser** : Réduire la complexité
-3. **Tester exhaustif** : Toutes les branches du code
-4. **Apprendre** : Qu'aurais-je pu faire mieux ?
+3. **Tester exhaustif** : Toutes les branches
+4. **Apprendre** : Qu'aurais-je pu faire mieux?
 
 ---
 
-## 📚 Ressources Complémentaires
+## 📚 Ressources Externes
 
-- **Visualisation** : visualgo.net/ (voir les algos en action)
-- **Interactif** : pythontutor.com/ (trace d'exécution)
-- **Exercices** : codingame.com/ ou leetcode.com/
-- **Docs** : python.org/3/ (référence officielle)
+| Ressource | Utilité |
+|-----------|---------|
+| [Python Docs](https://docs.python.org/3/) | Référence officielle |
+| [VisuAlgo](https://visualgo.net/) | Visualisation d'algorithmes |
+| [PythonTutor](https://pythontutor.com/) | Trace d'exécution interactif |
+| [CodinGame](https://www.codingame.com/) | Exercices interactifs |
+| [LeetCode](https://leetcode.com/) | Algorithmes & structures |
 
 ---
 
-## 🎯 Progression PCSI Recommandée
+## 📊 Thèmes Couverts
 
-| Semaine | Thème | TP | Objectif |
-|---------|-------|----|----|
-| 1-2 | Bases | TP01 | Variables, opérateurs, input/output |
-| 3-4 | Contrôle | TD | if/for/while, imbrication |
-| 5-6 | Fonctions | TP03 | Récursion, appels imbriqués |
-| 7-8 | Listes | TDs | Structures, parcours |
-| 9-10 | Tri | TD-les-tris | Complexité, comparaison algos |
-| 11-12 | Avancé | ai/ | A*, Minimax, Gradient |
+### Algorithmique
+- Tri : Bubble, Selection, Insertion, Merge, Quick
+- Recherche : Linéaire, Dichotomique, A*
+- Récursivité et itération
+- Diviser pour régner
+- Programmation dynamique
+- Algorithmes gloutons
+
+### Structures de Données
+- Listes, tuples, dictionnaires, ensembles
+- Piles et files (implémentation)
+- Listes chaînées
+- Arbres binaires
+- Graphes
+- Tables de hachage
+
+### Complexité
+- Notation Big-O (O(1), O(n), O(n²), O(n log n), O(2ⁿ))
+- Complexité temporelle et spatiale
+- Analyse de cas (pire, moyen, meilleur)
 
 ---
 
@@ -168,130 +196,57 @@ TPs et TDs hebdomadaires d'informatique en Python :
 
 ```bash
 # Exécuter un fichier Python
-python nom_fichier.py
+python main.py
 
 # Mode interactif
-python -i nom_fichier.py
+python -i main.py
 
-# Visualiser l'exécution
-python -m pdb nom_fichier.py
+# Déboguer pas à pas
+python -m pdb main.py
+
+# Mesurer les performances
+python -m timeit "mon_code()"
+
+# Lister l'arborescence du projet
+tree Informatique/
 ```
 
 ---
-- Complexité algorithmique
-- Récursivité
-- Traitement de données
-- Fichiers et entrées/sorties
-- Exercices d'algorithmique et de programmation
-- Analyse de complexité
-- Preuve d'algorithmes
-- Conception d'algorithmes
-- Optimisation de code
 
-**Thèmes couverts :**
-- Types de données (listes, tuples, dictionnaires, ensembles)
-- Structures de contrôle (boucles, conditions)
-- Fonctions et modules
-- Programmation récursive
-- Tri et recherche
-- Structures de données avancées (piles, files, arbres, graphes)
-- Manipulation de fichiers
+## 📝 Convention de Nommage
 
-### Revisions
-Exercices et codes pour la préparation aux DS (Devoirs Surveillés) d'informatique.
+- **Fichiers** : `snake_case.py` ou `main.py`
+- **Dossiers** : `kebab-case` (ex: `TD-les-tris`)
+- **Variables** : `snake_case` (ex: `nombre_total`)
+- **Fonctions** : `snake_case` (ex: `calculer_moyenne()`)
+- **Classes** : `PascalCase` (ex: `NoeudArbre`)
+- **Constantes** : `UPPER_CASE` (ex: `PI = 3.14159`)
 
-## 🎯 Compétences Développées
+---
+
+## ✨ Comment Utiliser ce Répertoire
+
+1. **Commencer par TP01** pour les bases
+2. **Progresser dans l'ordre** des étapes
+3. **Lire les README** de chaque dossier
+4. **Exécuter les solutions** pour comprendre
+5. **Refaire les exercices** sans regarder la solution
+6. **Consulter les ressources** pour approfondir
+
+---
+
+## 🎓 Compétences Développées
 
 - ✅ Maîtrise de Python
 - ✅ Algorithmique fondamentale
 - ✅ Structures de données
 - ✅ Analyse de complexité
 - ✅ Résolution de problèmes
-- ✅ Programmation orientée objet
 - ✅ Débogage et tests
-
-## 📖 Organisation
-
-```
-TPs-TDs/
-├── TP01-bases-python/
-│   ├── exercices.py
-│   └── README.md
-├── TP02-listes-et-tableaux/
-│   ├── main.py
-│   └── README.md
-├── TD01-complexite/
-│   └── exercices.py
-...
-
-Revisions/
-├── revision-ds/
-│   └── ds2/
-...
-```
-
-## 🧩 Concepts Principaux
-
-### Algorithmique
-- Tri (insertion, fusion, rapide, tas)
-- Recherche (linéaire, dichotomique)
-- Récursivité et itération
-- Diviser pour régner
-- Programmation dynamique
-- Algorithmes gloutons
-
-### Structures de Données
-- Tableaux et listes
-- Piles et files
-- Listes chaînées
-- Arbres binaires
-- Graphes
-- Tables de hachage
-
-### Complexité
-- Notation O (grand O)
-- Complexité temporelle
-- Complexité spatiale
-- Analyse d'algorithmes
-
-## 🚀 Utilisation
-
-Chaque dossier contient :
-1. Le code source Python (`.py`)
-2. Un `README.md` avec l'énoncé et explications
-3. Des tests unitaires (si applicable)
-4. Des jeux de données de test
-
-## 📦 Modules Python Utilisés
-
-```bash
-# Modules standards
-import time
-import sys
-import math
-import random
-
-# Pour les tests
-import unittest
-
-# Pour la visualisation (optionnel)
-pip install matplotlib
-```
-
-## 💡 Bonnes Pratiques
-
-- **Code lisible** : Noms de variables explicites
-- **Documentation** : Docstrings pour chaque fonction
-- **Tests** : Valider avec plusieurs cas de test
-- **Complexité** : Analyser et optimiser les algorithmes
-- **Style** : Suivre PEP 8 (conventions Python)
-
-## 🔗 Ressources
-
-- **Documentation Python** : https://docs.python.org/fr/3/
-- **Algorithmes** : Cours d'algorithmique CPGE
-- **Practice** : https://www.france-ioi.org/
+- ✅ Code lisible et documenté
 
 ---
 
-**Dernière mise à jour :** Décembre 2025
+**Dernière mise à jour** : Avril 2026  
+**Auteur** : Abdelkabir  
+**Niveau** : PCSI (Maths Sup)

@@ -1,6 +1,17 @@
-# ⚙️ Sciences de l'Ingénieur (SI) - PCSI
+# 🔧 Sciences Ingénieur - PCSI
 
-Travaux pratiques et travaux dirigés de sciences de l'ingénieur pour maîtriser la modélisation, l'analyse et la conception de systèmes mécaniques et automatisés.
+> Travaux pratiques et travaux dirigés de sciences de l'ingénieur pour la préparation aux concours PCSI.
+
+---
+
+## 📋 Navigation Rapide
+
+| Sujet | Contenu | Statut |
+|-------|---------|--------|
+| **Modélisation** | CAO, liaisons mécaniques | ✅ Partiellement |
+| **Cinématique** | Mouvements, transmissions | 📝 À compléter |
+| **Dynamique** | Forces, accélérations | 📝 À compléter |
+| **Systèmes** | Analyse fonctionnelle | 📝 À compléter |
 
 ---
 
