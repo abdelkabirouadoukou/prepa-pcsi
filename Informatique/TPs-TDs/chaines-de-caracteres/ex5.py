@@ -8,3 +8,8 @@ def doubler(chaine):
             newchaine += chaine[i]
     return newchaine
 print(doubler("glouglou dit le dindon"))
+
+# adv one
+def doubler_adv(chaine):
+    voyelles = ['a', 'e', 'i', 'o', 'u', 'y']
+    return ''.join(char*2 if char in voyelles else char for char in chaine)
