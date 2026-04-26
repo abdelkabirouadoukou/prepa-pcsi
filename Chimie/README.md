@@ -1,6 +1,18 @@
 # 🧪 Chimie - PCSI
 
-Travaux pratiques et travaux dirigés de chimie pour la préparation aux concours des grandes écoles.
+> Travaux pratiques et travaux dirigés de chimie pour la préparation aux concours PCSI. Dosages, analyses, titrages.
+
+---
+
+## 📋 Navigation Rapide
+
+| TP | Thème | Technique | Niveau |
+|----|-------|-----------|--------|
+| **TP2** | Dosage Acide-Base | pH-métrie | ⭐ |
+| **TP3** | Dosage Acide-Base | Conductimétrie | ⭐⭐ |
+| **TP4** | Vinaigre Commercial | Titrage | ⭐⭐ |
+| **TP5** | Mélange d'Acides | Système 2×2 | ⭐⭐⭐ |
+| **TP6** | Poly-acides | Courbes Multi-paliers | ⭐⭐⭐ |
 
 ---
 
