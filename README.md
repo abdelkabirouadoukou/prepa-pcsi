@@ -8,12 +8,12 @@
 
 | Domaine | Contenu | Statut |
 |---------|---------|--------|
-| 💻 **[Informatique](./Informatique/)** | TPs, TDs, Algorithmes, AI | ✅ Complet |
-| 🧪 **[Chimie](./Chimie/)** | TPs/TDs Dosage & Analyses | ✅ En cours |
-| 📐 **[Mathématiques](./Mathematiques/)** | Exercices & Révisions | 📝 À completer |
-| ⚛️ **[Physique](./Physique/)** | Projectiles, Filtrage, Mesures | ✅ En cours |
-| 🔧 **[Sciences Ingénieur](./Sciences-Ingenieur/)** | Modélisation, Liaisons | 📝 À completer |
-| 🧮 **[Algorithmes Généraux](./Algorithmes-General/)** | PGCD, Problem Solving | ✅ En cours |
+| 💻 **[Informatique](./Informatique/)** | TPs, TDs, Algorithmes, AI | 📝  En cours |
+| 🧪 **[Chimie](./Chimie/)** | TPs/TDs Dosage & Analyses | 📝 En cours |
+| 📐 **[Mathématiques](./Mathematiques/)** | Exercices & Révisions | 📝  En cours |
+| ⚛️ **[Physique](./Physique/)** | Projectiles, Filtrage, Mesures | 📝 En cours |
+| 🔧 **[Sciences Ingénieur](./Sciences-Ingenieur/)** | Modélisation, Liaisons | 📝  En cours |
+| 🧮 **[Algorithmes Généraux](./Algorithmes-General/)** | PGCD, Problem Solving | 📝 En cours |
 
 ---
 
