@@ -18,6 +18,20 @@ def niveau_gris(image):
 
 # Exemple d'utilisation :
 dragon_gris = niveau_gris(dragon)
-plt.imshow(dragon_gris, cmap='gray')
-plt.axis('off')
+# plt.imshow(dragon_gris, cmap='gray')
+# plt.axis('off')
+# plt.show()
+
+def inverser(image):
+    # Cette fonction sert à inverser les couleurs d'une image en niveaux de gris
+    image3 = image.copy()
+    # image3 = 255 - image3 
+    # return image3
+    for i in range(len(l)):
+        for j in range(len(c)):
+            image3[i][j]=255-image3[i][j]
+
+# Exemple d'utilisation :
+dragon_inver = inverser(dragon_gris)  # dragon_grid hiya l'image li khrjat men niveau_gris
+plt.imshow(dragon_inver, cmap=plt.cm.gray)
 plt.show()
